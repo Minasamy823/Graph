@@ -106,7 +106,7 @@ export default class dashboard extends Component {
          { !this.state.logged_in ? <div className='backgroundk'>
              <form className='register' onSubmit={this.submitting}>
                     <div className='text'>
-                        <h> Log-in to your account </h>
+                        <h> Register </h>
                     </div>
                     <div className='input-container'>
                         <input name='name' placeholder='Name' onChange={this.username}/><br/>
